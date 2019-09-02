@@ -18,7 +18,6 @@ def main():
         elif selection == 'start':
             timer = stopwatch()
             print('Stopwatch stopped with a total time of {}\n'.format(timer))
-
         else:
             print('Not a command\n')
 
