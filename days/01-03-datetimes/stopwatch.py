@@ -10,16 +10,17 @@ def stopwatch():
 
 
 def main():
-    while True:   
-        print('::Stopwatch App::\nCommands: Start - Quit')
-        selection = input('Enter a command: \n').lower()
-        if selection == 'quit':
-            break     
-        elif selection == 'start':
+    while True:
+        print("::Stopwatch App::\nCommands: Start - Quit")
+        selection = input("Enter a command: \n").lower()
+
+        if selection == "quit":
+            break
+        elif selection == "start":
             timer = stopwatch()
-            print('Stopwatch stopped with a total time of {}\n'.format(timer))
+            print("Stopwatch stopped with a total time of {}\n".format(timer))
         else:
-            print('Not a command\n')
+            print("Not a command\n")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/dan/.local/share/virtualenvs/100daysofcode-with-python-course-DLJsdqoU/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
